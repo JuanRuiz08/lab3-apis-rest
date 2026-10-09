@@ -1,0 +1,12 @@
+services:
+  mi-api-backend:
+    build: ./api-backend
+    ports:
+      - "5000:5000"
+
+  mi-web-frontend:
+    build: ./app-frontend
+    ports:
+      - "8082:80"
+    depends_on:
+      - mi-api-backend
