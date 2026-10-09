@@ -1,0 +1,13 @@
+{
+  "name": "api-backend",
+  "version": "1.0.0",
+  "description": "API REST de tareas con Express y PostgreSQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.11.5"
+  }
+}
